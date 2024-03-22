@@ -76,7 +76,7 @@ alert('tax to pay: ' + taxToPay);
 const isSunny = true;
 
 if (isSunny === true) {
-    console.log('Don not forget your sunglasses!');
+    console.log('Do not forget your sunglasses!');
 } else {
     console.log('You might need an umbrella.');
 }
