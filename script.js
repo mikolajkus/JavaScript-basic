@@ -68,7 +68,7 @@ if (isPayingVAT) {
 
 taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
 
-alert ('tax to pay: ' + taxToPay);
+alert('tax to pay: ' + taxToPay);
 
 // Declare a variable called isSunny and assign a boolean value to it.
 // Create an if-else statement that checks if it's sunny. If it is, print "Don't forget your sunglasses!".
