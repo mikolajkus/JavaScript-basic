@@ -60,7 +60,7 @@ const isPayingVAT = true;
 let VATRateInPoland = 0.23;
 const incomeTaxRate = 0.12;
 let monthlyIncome = 3500;
-let taxToPay = 0
+let taxToPay = 0;
 
 if (isPayingVAT) {
     taxToPay = monthlyIncome * VATRateInPoland;
@@ -68,7 +68,7 @@ if (isPayingVAT) {
 
 taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
 
-alert('tax to pay: ' + taxToPay);
+alert ('tax to pay: ' + taxToPay);
 
 // Declare a variable called isSunny and assign a boolean value to it.
 // Create an if-else statement that checks if it's sunny. If it is, print "Don't forget your sunglasses!".
@@ -139,7 +139,7 @@ if (currentColor === ('red')) {
 // Declare a variable called month with the number of the month.
 // Use an if statement to print the month's name.
 
-const month = 1;
+const month = 5;
 
 if (month === 1) {
     console.log('January');
