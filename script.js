@@ -172,3 +172,16 @@ if (month === 1) {
 // Print "Divisible by 5" if the variable is divisible by 5.
 // Print "Divisible by 3 and 5" if the variable is divisible both by 3 and by 5.
 
+const number = 15;
+
+if (number % 3 === 0 && number % 5 === 0) {
+    console.log('Divisible by 3 and 5');
+} else if (number % 5 === 0) {
+    console.log('Divisible by 5');
+} else if (number % 3 === 0) {
+    console.log('Divisible by 3');
+}
+
+
+
+
