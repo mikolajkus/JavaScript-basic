@@ -33,11 +33,11 @@ console.log(secondNumber);
 // If the average equals 4 out of 5 or higher, print "Good job!".
 // Otherwise, print "Try harder!"
 
-let gradePhysic = 4;
-let gradeMath = 4;
-let gradeEnglish = 4;
+const gradePhysic = 4;
+const gradeMath = 4;
+const gradeEnglish = 4;
 
-averageGrades = (gradePhysic + gradeMath + gradeEnglish) / 3;
+const averageGrades = (gradePhysic + gradeMath + gradeEnglish) / 3;
 if (averageGrades >= 4) {
     console.log('Good job!');
 } else {
@@ -49,9 +49,9 @@ if (averageGrades >= 4) {
 const currentAge = 30;
 const retirementAgeInPoland = 67;
 
-yearsLeftToRetirenment = retirementAgeInPoland - currentAge;
+const yearsLeftToRetirement = retirementAgeInPoland - currentAge;
 
-alert(yearsLeftToRetirenment);
+alert(yearsLeftToRetirement);
 
 // Fix the code (2 mistakes):
 // the expected result of the above code: tax to pay: 1225
@@ -62,12 +62,12 @@ const incomeTaxRate = 0.12;
 let monthlyIncome = 3500;
 
 if (isPayingVAT) {
-    taxToPay = monthlyIncome * VATRateInPoland;
+   const taxToPay = monthlyIncome * VATRateInPoland;
 }
 
-taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
+const taxToPay = monthlyIncome * VATRateInPoland + monthlyIncome * incomeTaxRate;
 
-alert(`tax to pay: ${taxToPay}`);
+alert('tax to pay: ' + taxToPay);
 
 // Declare a variable called isSunny and assign a boolean value to it.
 // Create an if-else statement that checks if it's sunny. If it is, print "Don't forget your sunglasses!".
@@ -76,34 +76,34 @@ alert(`tax to pay: ${taxToPay}`);
 const isSunny = true;
 
 if (isSunny === true) {
-    console.log("Don't forget your sunglasses!");
+    console.log('Don not forget your sunglasses!');
 } else {
-    console.log("You might need an umbrella.");
+    console.log('You might need an umbrella.');
 }
 
 // Create a variable named currentMonth and assign a number representing the current month.
 // Use an if statement to check the month and print a message based on the season (e.g., "It's winter" for December, January, and February).
 
-let currentMonth = 11;
+const currentMonth = 11;
 
 if (currentMonth === 12 || currentMonth === 1 || currentMonth === 2) {
-    console.log("It's winter");
+    console.log('It is winter');
 } else if (currentMonth === 3 || currentMonth === 4 || currentMonth === 5) {
-    console.log("It's spring");
+    console.log('It is spring');
 } else if (currentMonth === 6 || currentMonth === 7 || currentMonth === 8) {
-    console.log("It's summer");
-} else if(currentMonth === 9 || currentMonth === 10 || currentMonth === 11) {
-    console.log("Its autumn");
+    console.log('It is summer');
+} else if (currentMonth === 9 || currentMonth === 10 || currentMonth === 11) {
+    console.log('It is autumn');
 }
 
 // Create two variables personWeight and personHeight  and assign some numbers there.
 // Calculate the BMI (and store it in well-named variable) using the formula BMI = weight / (height * height).
 // Print the calculated BMI.
 
-let personWeight = 80
-let personHeight = 1.80
+const personWeight = 80
+const personHeight = 1.80
 
-calculateBMI = personWeight / (personHeight * personHeight);
+const calculateBMI = personWeight / (personHeight * personHeight);
 
 console.log(calculateBMI);
 
@@ -116,7 +116,7 @@ console.log(calculateBMI);
 const age = 17;
 
 if (age >= 18) {
-    console.log("A citizen can vote");
+    console.log('A citizen can vote');
 } else if (age < 18) {
-    console.log("A citizen can't vote");
+    console.log('A citizen can not vote');
 }
