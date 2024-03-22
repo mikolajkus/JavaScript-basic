@@ -60,12 +60,13 @@ const isPayingVAT = true;
 let VATRateInPoland = 0.23;
 const incomeTaxRate = 0.12;
 let monthlyIncome = 3500;
+let taxToPay = 0
 
 if (isPayingVAT) {
-   const taxToPay = monthlyIncome * VATRateInPoland;
+    taxToPay = monthlyIncome * VATRateInPoland;
 }
 
-const taxToPay = monthlyIncome * VATRateInPoland + monthlyIncome * incomeTaxRate;
+taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
 
 alert('tax to pay: ' + taxToPay);
 
