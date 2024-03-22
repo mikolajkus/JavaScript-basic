@@ -182,6 +182,14 @@ if (number % 3 === 0 && number % 5 === 0) {
     console.log('Divisible by 3');
 }
 
+// Create a variable named radius and assign a number to it.
+// Create a variable named circleArea that stores the area of the circle using the formula area = π * radius^2.
+// Use MDN to find out how to use the PI number in JS.
+
+const radius = 56;
+const circleArea = Math.PI * radius^2
+
+console.log(circleArea);
 
 
 
