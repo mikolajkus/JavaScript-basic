@@ -57,9 +57,9 @@ alert(yearsLeftToRetirement);
 // the expected result of the above code: tax to pay: 1225
 
 const isPayingVAT = true;
-let VATRateInPoland = 0.23;
+const VATRateInPoland = 0.23;
 const incomeTaxRate = 0.12;
-let monthlyIncome = 3500;
+const monthlyIncome = 3500;
 let taxToPay = 0;
 
 if (isPayingVAT) {
@@ -166,3 +166,9 @@ if (month === 1) {
 } else if (month === 12) {
     console.log('December');
 }
+
+// Declare a variable and assign a number to it.
+// Print "Divisible by 3" if the variable is divisible by 3.
+// Print "Divisible by 5" if the variable is divisible by 5.
+// Print "Divisible by 3 and 5" if the variable is divisible both by 3 and by 5.
+
