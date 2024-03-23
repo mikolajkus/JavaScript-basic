@@ -114,11 +114,11 @@ console.log(calculateBMI);
 // a citizen can vote  if the age is at least 18
 // a citizen can't vote if the age is less than 18
 
-const citizenAge = 17;
+const age = 17;
 
-if (citizenAge >= 18) {
+if (age >= 18) {
     console.log('A citizen can vote');
-} else if (citizenAge < 18) {
+} else if (age < 18) {
     console.log('A citizen can not vote');
 }
 
@@ -232,3 +232,22 @@ isAdult = age >= 18;
 
 alert(isAdult)
 
+// Extend the code it prints if the user can drive or not.
+// To determine it, you need to check if the user is an adult and has a driving license.
+// Assign true to the isAdult variable if the user has at least 18 years and false  if the opposite.
+// Assign true  to canDriveLegally if the user can drive legally or false if not.
+// Make sure to print (alert() or console.log() ) the value of the canDriveLegally variable in human-readable form.
+
+const age = 18;
+const hasDrivingLicense = true;
+let isAdult = true;
+let canDriveLegally = true;
+
+isAdult = age >= 18;
+canDriveLegally = hasDrivingLicense;
+
+if (isAdult && canDriveLegally) {
+    console.log('Can drive legally');
+} else {
+    console.log('Can not drive legally');
+}
