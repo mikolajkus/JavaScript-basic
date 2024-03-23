@@ -114,11 +114,11 @@ console.log(calculateBMI);
 // a citizen can vote  if the age is at least 18
 // a citizen can't vote if the age is less than 18
 
-const age = 17;
+const citizenAge = 17;
 
-if (age >= 18) {
+if (citizenAge >= 18) {
     console.log('A citizen can vote');
-} else if (age < 18) {
+} else if (citizenAge < 18) {
     console.log('A citizen can not vote');
 }
 
@@ -191,5 +191,44 @@ const circleArea = Math.PI * radius^2
 
 console.log(circleArea);
 
+// Create a variable studentScore  and assign a number representing a student's score (0-100).
+// Use an if-else statement to determine the grade (A, B, C, D, F) based on the score and print the grade.
+// For instance, a score greater than or equal to 90 could be an 'A', 80-89 could be a 'B', and so on.
 
+const studentScore = 65;
+
+if (studentScore >= 90) {
+    console.log('A');
+} else if (studentScore >= 80) {
+    console.log('B');
+} else if (studentScore >= 70) {
+    console.log('C');
+} else if (studentScore >= 60) {
+    console.log('D');
+} else if (studentScore <= 50) {
+    console.log('F');
+}
+
+// Declare a variable representing a car's speed and assign a number to it.
+// Declare another variable representing a speed limit and assign a number to it.
+// Use an if-else statement to print "Speed is fine" if the car's speed is less than or equal to the speed limit, or "Speeding!" if it's over the limit.
+
+const currentSpeed = 45;
+const limitSpeed = 50;
+
+if (currentSpeed > limitSpeed) {
+    console.log('Speeding!');
+} else {
+    console.log('Speed is fine');
+}
+
+// Delete the else statement and adjust the code to make sure that the output is the same as before.
+// a. remember that you can give a default value to a variable when declaring it.
+
+const age = 17;
+let isAdult = true;
+
+isAdult = age >= 18;
+
+alert(isAdult)
 
