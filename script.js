@@ -114,11 +114,11 @@ console.log(BMI);
 // a citizen can vote  if the age is at least 18
 // a citizen can't vote if the age is less than 18
 
-const age = 17;
+const citizenAge = 17;
 
-if (age >= 18) {
+if (citizenAge >= 18) {
     console.log('A citizen can vote');
-} else if (age < 18) {
+} else if (citizenAge < 18) {
     console.log('A citizen can not vote');
 }
 
@@ -187,7 +187,7 @@ if (number % 3 === 0 && number % 5 === 0) {
 // Use MDN to find out how to use the PI number in JS.
 
 const radius = 56;
-const circleArea = Math.PI * (radius * radius)
+const circleArea = Math.PI * radius * radius
 
 console.log(circleArea);
 
@@ -205,7 +205,7 @@ if (studentScore >= 90) {
     console.log('C');
 } else if (studentScore >= 60) {
     console.log('D');
-} else if (studentScore <= 59) {
+} else {
     console.log('F');
 }
 
@@ -225,12 +225,12 @@ if (currentSpeed > limitSpeed) {
 // Delete the else statement and adjust the code to make sure that the output is the same as before.
 // a. remember that you can give a default value to a variable when declaring it.
 
-const age = 17;
-let isAdult = true;
+const personAge = 17;
+let isPersonIsAdult = true;
 
-isAdult = age >= 18;
+isPersonIsAdult = personAge >= 18;
 
-alert(isAdult)
+alert(isPersonIsAdult);
 
 // Extend the code it prints if the user can drive or not.
 // To determine it, you need to check if the user is an adult and has a driving license.
