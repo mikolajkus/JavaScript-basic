@@ -85,15 +85,15 @@ if (isSunny === true) {
 // Create a variable named currentMonth and assign a number representing the current month.
 // Use an if statement to check the month and print a message based on the season (e.g., "It's winter" for December, January, and February).
 
-const currentMonth = 11;
+const currentMonth = 7;
 
-if (currentMonth === 12 || currentMonth === 1 || currentMonth === 2) {
+if (currentMonth === 12 || currentMonth <= 2) {
     console.log('It is winter');
-} else if (currentMonth === 3 || currentMonth === 4 || currentMonth === 5) {
+} else if (currentMonth <= 5) {
     console.log('It is spring');
-} else if (currentMonth === 6 || currentMonth === 7 || currentMonth === 8) {
+} else if (currentMonth <= 8) {
     console.log('It is summer');
-} else if (currentMonth === 9 || currentMonth === 10 || currentMonth === 11) {
+} else if (currentMonth <= 11) {
     console.log('It is autumn');
 }
 
@@ -104,9 +104,9 @@ if (currentMonth === 12 || currentMonth === 1 || currentMonth === 2) {
 const personWeight = 80
 const personHeight = 1.80
 
-const calculateBMI = personWeight / (personHeight * personHeight);
+const BMI = personWeight / (personHeight * personHeight);
 
-console.log(calculateBMI);
+console.log(BMI);
 
 // Write a program that checks if a person is eligible to vote.
 // Declare a variable called age and assign it a numeric value.
@@ -128,11 +128,11 @@ if (age >= 18) {
 
 const currentColor = 'yellow';
 
-if (currentColor === ('red')) {
+if (currentColor === 'red') {
     console.log('Stop');
-} else if (currentColor === ('yellow')) {
+} else if (currentColor === 'yellow') {
     console.log('Speed up');
-} else if (currentColor === ('green')) {
+} else if (currentColor === 'green') {
     console.log('Go');
 }
 
@@ -187,7 +187,7 @@ if (number % 3 === 0 && number % 5 === 0) {
 // Use MDN to find out how to use the PI number in JS.
 
 const radius = 56;
-const circleArea = Math.PI * radius^2
+const circleArea = Math.PI * (radius * radius)
 
 console.log(circleArea);
 
@@ -195,7 +195,7 @@ console.log(circleArea);
 // Use an if-else statement to determine the grade (A, B, C, D, F) based on the score and print the grade.
 // For instance, a score greater than or equal to 90 could be an 'A', 80-89 could be a 'B', and so on.
 
-const studentScore = 65;
+const studentScore = 58;
 
 if (studentScore >= 90) {
     console.log('A');
@@ -205,7 +205,7 @@ if (studentScore >= 90) {
     console.log('C');
 } else if (studentScore >= 60) {
     console.log('D');
-} else if (studentScore <= 50) {
+} else if (studentScore <= 59) {
     console.log('F');
 }
 
